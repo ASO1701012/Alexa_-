@@ -16,15 +16,15 @@ Amazon SES
 
 ## 使用方法
 
-ダウンロードリンク内のリンクを踏むことでVoiceFlowのプロジェクトをダウンロードすることができます  
-その後、AWSのLambdaで関数を作成します。  
-APIGatewayを使いVoiceFlowとの通信を確立します。  
-APIGatewayのマッピングテンプレートに記述する内容はsendMainFromSESフォルダ内の  
-マッピングテンプレートを参照してください。  
-Lambdaのコードは同じフォルダ内のindex.jsをコピペしてください。  
-その時に、メールアドレスを入力してくださいと書いてあるところに自分のメールアドレスを入力してください。  
-VoiceFlowのAPIブロックのRequest URL を先ほどAPIGatewayで作ったURLに張り替えてください。  
-最後に、Upload to Alexa を行うことでAlexaスキルとして使用することができます  
+1.ダウンロードリンク内のリンクを踏むことでVoiceFlowのプロジェクトをダウンロードすることができます  
+2.その後、AWSのLambdaで関数を作成します。  
+3.APIGatewayを使いVoiceFlowとの通信を確立します。  
+4.APIGatewayのマッピングテンプレートに記述する内容はsendMainFromSESフォルダ内の  
+　マッピングテンプレートを参照してください。  
+5.Lambdaのコードは同じフォルダ内のindex.jsをコピペしてください。  
+6.その時に、メールアドレスを入力してくださいと書いてあるところに自分のメールアドレスを入力してください。  
+7.VoiceFlowのAPIブロックのRequest URL を先ほどAPIGatewayで作ったURLに張り替えてください。  
+8.最後に、Upload to Alexa を行うことでAlexaスキルとして使用することができます  
 
 
 ## 機能説明
