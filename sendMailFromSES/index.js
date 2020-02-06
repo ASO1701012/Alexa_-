@@ -5,9 +5,9 @@ exports.handler = (event, context, callback) => {
     const ses = new SDK.SES({ region: 'us-east-1' });
     const email = {
         // From
-        Source: "1reanati@gmail.com",
+        Source: "ここにメールアドレスを入力してください",
         // To
-        Destination: { ToAddresses: ["1reanati@gmail.com"] },
+        Destination: { ToAddresses: ["ここにメールアドレスを入力してください"] },
         Message: {
             // 件名
             Subject: { Data: "Alexaからのメール" },
