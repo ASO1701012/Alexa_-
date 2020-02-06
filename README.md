@@ -10,9 +10,9 @@
 
 ## 使用技術
 
-VoiceFlow  
-Lambda  
-Amazon SES  
+* VoiceFlow  
+* Lambda  
+* Amazon SES  
 
 ## 使用方法
 
